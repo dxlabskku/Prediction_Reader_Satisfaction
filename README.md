@@ -29,7 +29,7 @@ satisfaction.
 The best accuracy of the deep learning models is higher than that of machine learning models.
 
 #### 2. Performance comparison of the baseline model and all other improved models
-<img src="https://user-images.githubusercontent.com/42277033/150514523-7056a74e-33dc-426d-bcf7-7988bbca2a26.png"  width="800" height="320"/>
+<img src="https://user-images.githubusercontent.com/42277033/214619252-bd5f1d94-64bb-4209-92e4-b6e632539ced.png"  width="800" height="320"/>
 
 In terms of best accuracy and average accuracy, adding metadata and cover images to a review-based predictive model slightly improved performance, but adding cover objects reduced performance.
 ## Dataset
