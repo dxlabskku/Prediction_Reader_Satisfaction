@@ -1,4 +1,4 @@
-# Can book covers help to know bestsellers?
+# Can book covers help predict bestsellers using machine learning approaches?
 ## Abstract
 * As the book publishing market changes from offline to online, readers tend to purchase books paying more attention to the book cover and metadata rather than the actual contents of the book. However, the previous studies that predicted reader satisfaction so far were mainly based on review comments. Therefore, we conducted a study for predicting reader satisfaction based on reviews, metadata, and book covers. In particular, we aimed to investigate whether the prediction performance can improve, when metadata and book covers are added to the review-based prediction model.
 * We collected title, author, publisher, reviews, ratings, and book cover for ‘Literature and Fiction’ genre books in Amazon bookstore, and conducted an experiment to predict multi-rating based on review, metadata, and book cover. For this, several deep learning classifiers (CNN, ResNet, LSTM, BiLSTM, GRU, BiGRU) were employed.
