@@ -1,9 +1,14 @@
 # Can book covers help predict bestsellers using machine learning approaches?
 ## Abstract
-* As the book publishing market changes from offline to online, readers tend to purchase books paying more attention to the book cover and metadata rather than the actual contents of the book. However, the previous studies that predicted reader satisfaction so far were mainly based on review comments. Therefore, we conducted a study for predicting reader satisfaction based on reviews, metadata, and book covers. In particular, we aimed to investigate whether the prediction performance can improve, when metadata and book covers are added to the review-based prediction model.
-* We collected title, author, publisher, reviews, ratings, and book cover for ‘Literature and Fiction’ genre books in Amazon bookstore, and conducted an experiment to predict multi-rating based on review, metadata, and book cover. For this, several deep learning classifiers (CNN, ResNet, LSTM, BiLSTM, GRU, BiGRU) were employed.
-* Reviews alone can reach a certain level of performance, and adding metadata and cover images to a review-based predictive model slightly improved performance. Through these results, we can confirm that metadata and cover images help predict reader satisfaction, but their effect is insignificant.
-* This study is meaningful in that it is a study based on multimodal data in which image data is added to text data, and showed that performance can improve a bit by adding image data to the existing book rating prediction models centered on text data.
+* As the book publishing market changes from offline to online, readers tend to purchase books while paying more attention to book covers and metadata rather than the actual book contents. We examine whether publishers can know users’ satisfaction with
+books in advance, and both metadata and book covers help predict this satisfaction.
+* Exploring effects of metadata and book covers on the satisfaction is not only necessary for publishers’ perspectives, but also for librarians’ perceptions. However, the majority of prior research on user preference-based book recommendation systems in both book
+industry and library system employed review comments, ratings, or book loan records.
+* Thus, we open up the potentiality of other factors, which implicitly affect the satisfaction with books. We collected book titles, authors, publishers, reviews, ratings, and covers from the “Literature and Fiction” genre in the Amazon bookstore and conducted
+an experiment to predict readers’ satisfaction ratings based on book reviews, metadata, and book covers. Several deep learning classifiers (CNN, ResNet, LSTM, BiLSTM, GRU, BiGRU) were employed.
+* Reviews alone can reach a certain level of prediction performance, but adding metadata, cover images, and cover objects to a review-based predictive model slightly improves that performance. Based on these results, we can confirm that both metadata and book covers slightly help predict readers’ perceived
+satisfaction.
+* This study is a pilot exploration of the idea that multimodal approaches can improve the prediction of the perceived satisfaction of book readers.
 ## Data Collection
 <img src="https://user-images.githubusercontent.com/42277033/150510126-84e632b4-5ecd-43e2-9914-a2f3e53f2852.jpg"  width="500" height="200"/>
 
